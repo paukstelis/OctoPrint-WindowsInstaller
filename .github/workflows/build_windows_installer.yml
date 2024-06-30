@@ -48,4 +48,4 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         prerelease: ${{ steps.octoprint_version.outputs.prerelease }}
         files: |
-          Output/OctoPrint Setup ${{ steps.octoprint_version.outputs.release }}.exe
+          Output/LatheEngraver Setup ${{ steps.octoprint_version.outputs.release }}.exe
