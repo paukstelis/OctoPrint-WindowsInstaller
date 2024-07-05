@@ -4,3 +4,16 @@ server:
     serverRestartCommand: '"####APPDIR####" restart!'
     systemShutdownCommand: '"####APPDIR####" stop'
 
+serial:
+  baudrate: 115200
+  blockedCommands:
+  - M0
+  - M1
+  - M00
+  - M01
+  pausingCommands:
+  - M0
+  - M1
+  - M25
+  - M00
+  - M01
