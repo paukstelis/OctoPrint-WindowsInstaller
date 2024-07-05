@@ -30,7 +30,7 @@ jobs:
       
     - name: 🔨 Install LatheEngraver Plugins
       run: |
-        WPy64-31050\Scripts\python.bat -m pip install https://github.com/paukstelis/Octoprint-Bettergrblsupport/archive/refs/heads/rotary-adjust.zip https://github.com/paukstelis/OctoPrint-Gcode_ripper/archive/refs/heads/main.zip
+        WPy64-31050\Scripts\python.bat -m pip install https://github.com/paukstelis/OctoPrint-LatheEngraver/archive/refs/heads/main.zip https://github.com/paukstelis/OctoPrint-Gcode_ripper/archive/refs/heads/main.zip
       shell: cmd
       
     - name: 🔨 Build Installer
