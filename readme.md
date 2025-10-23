@@ -1,6 +1,6 @@
-# OctoPrint Windows Installer
+# OctoPrint Windows Installer - LatheEngraver edition!
 
-This repository uses a GitHub action to make a bundled installer for OctoPrint on Windows. It uses [WinPython](https://github.com/winpython/winpython), [winsw](https://github.com/winsw/winsw), and automates the process of creating a venv, installing OctoPrint in it, and adding an OctoPrint service in Windows.
+This repository uses a GitHub action to make a bundled installer for OctoPrint on Windows. It uses [WinPython](https://github.com/winpython/winpython), [winsw](https://github.com/winsw/winsw), and automates the process of creating a venv, installing OctoPrint in it, and adding an OctoPrint service in Windows. This particular version will ALSO install all plugins that are specific for the LatheEngraver.
 
 ## System Requirements
 
