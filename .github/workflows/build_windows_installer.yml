@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    runs-on: windows-latest
+    runs-on: windows-2022
 
     steps:
     - name: 👀 Get OctoPrint Version
@@ -19,11 +19,11 @@ jobs:
         token: ${{ secrets.GITHUB_TOKEN }}
         
     - name: 📌 Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
     - name: 🔨 Install OctoPrint into WinPython
       run: |
-        WPy64-31050\Scripts\python.bat -m pip install OctoPrint==${{ steps.octoprint_version.outputs.release }}
+        WPy64-31700\Scripts\python.bat -m pip install OctoPrint==${{ steps.octoprint_version.outputs.release }}
       shell: cmd
       
     - name: 🔨 Install LatheEngraver Plugins
